@@ -1,4 +1,4 @@
-package com.kagaconnect.models;
+package com.kagaconnect.core.models;
 
 public class Size {
     private int width;

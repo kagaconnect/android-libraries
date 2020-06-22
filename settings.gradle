@@ -1,3 +1,8 @@
+include ':progressbars'
+include ':imageview'
+include ':buttons'
+include ':core'
+include ':textview'
 include ':edittext'
 include ':spinner'
 include ':app'

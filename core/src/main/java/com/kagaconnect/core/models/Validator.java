@@ -1,4 +1,4 @@
-package com.kagaconnect.models;
+package com.kagaconnect.core.models;
 
 import androidx.annotation.NonNull;
 

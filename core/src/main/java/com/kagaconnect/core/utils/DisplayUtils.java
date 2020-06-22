@@ -1,4 +1,4 @@
-package com.kagaconnect.utils;
+package com.kagaconnect.core.utils;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,7 +8,7 @@ import android.util.TypedValue;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.kagaconnect.models.Size;
+import com.kagaconnect.core.models.Size;
 
 public class DisplayUtils {
     public static float convertDpToPixel(float dp, Context context) {

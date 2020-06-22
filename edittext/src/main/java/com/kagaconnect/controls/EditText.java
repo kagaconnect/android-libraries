@@ -18,8 +18,8 @@ import androidx.annotation.RequiresApi;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.kagaconnect.edittext.R;
-import com.kagaconnect.models.Validator;
-import com.kagaconnect.utils.DisplayUtils;
+import com.kagaconnect.core.models.Validator;
+import com.kagaconnect.core.utils.DisplayUtils;
 
 public class EditText extends LinearLayout {
 

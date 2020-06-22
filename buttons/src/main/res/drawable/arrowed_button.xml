@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item
+                android:state_enabled="false"
+                android:state_focused="true">
+                <shape android:shape="rectangle">
+                    <!--<padding android:bottom="16dp" android:left="16dp" android:right="16dp" android:top="16dp"/>
+                    <corners android:radius="@dimen/button_corner_radius_nc"/>-->
+                    <solid android:color="#cecece"/>
+                </shape>
+            </item>
+            <item
+                android:state_enabled="false"
+                android:state_focused="false">
+                <shape android:shape="rectangle">
+                    <!--<padding android:bottom="16dp" android:left="16dp" android:right="16dp" android:top="16dp"/>
+                    <corners android:radius="@dimen/button_corner_radius_nc"/>-->
+                    <solid android:color="#cecece"/>
+                </shape>
+            </item>
+            <item android:state_focused="true">
+                <shape android:shape="rectangle">
+                    <!--<padding android:bottom="16dp" android:left="16dp" android:right="16dp" android:top="16dp"/>
+                    <corners android:radius="@dimen/button_corner_radius_nc"/>
+                    <stroke android:color="#4285F4" android:width="2dp"/>-->
+                    <solid android:color="#404285F4"/>
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <!--<padding android:bottom="16dp" android:left="16dp" android:right="16dp" android:top="16dp"/>
+                    <corners android:radius="@dimen/button_corner_radius_nc"/>
+                    <stroke android:color="#4285F4" android:width="2dp"/>-->
+                    <solid android:color="#404285F4"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <!--<padding android:bottom="16dp" android:left="16dp" android:right="16dp" android:top="16dp"/>
+                    <corners android:radius="@dimen/button_corner_radius_nc"/>
+                    <stroke android:color="#10000000" android:width="2dp"/>-->
+                    <!--<solid android:color="@color/black_button_background_color"/>-->
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <!-- <item android:left="12dp">
+         <bitmap
+             android:gravity="center_vertical|start"
+             android:src="@drawable/ic_facebook_white_24dp"/>
+     </item>-->
+</layer-list>

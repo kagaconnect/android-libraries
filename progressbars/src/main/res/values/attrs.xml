@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverlayedProgressBar">
+        <attr name="overlayed_progressColor" format="color" />
+        <attr name="overlayed_backgroundColor" format="color" />
+        <attr name="overlayed_textSize" format="dimension" />
+        <attr name="overlayed_textColor" format="color" />
+        <attr name="overlayed_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcView">
+        <attr name="arcRadius" format="dimension" />
+        <attr name="arcWidth" format="dimension" />
+        <attr name="startAngle" format="float" />
+        <attr name="sweepAngle" format="float" />
+        <attr name="arcColor" format="color" />
+        <attr name="drawOnlyStroke" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CurvesLoader">
+        <attr name="curves_noOfCurves" format="integer" />
+        <attr name="curves_outermostCurveRadius" format="dimension" />
+        <attr name="curves_curveWidth" format="dimension" />
+        <attr name="curves_distanceBetweenCurves" format="dimension" />
+        <attr name="curves_curveSweepAngle" format="float" />
+        <attr name="curves_curveColor" format="color" />
+        <attr name="curves_animDuration" format="integer" />
+        <attr name="curves_interpolator" format="reference" />
+    </declare-styleable>
+</resources>

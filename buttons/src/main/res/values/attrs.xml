@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ArrowedButton">
+        <attr name="arrow_text" format="string"/>
+        <attr name="arrow_textSize" format="dimension" />
+        <attr name="arrow_description" format="string"/>
+        <attr name="arrow_descriptionSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckedButton">
+        <attr name="checked_isSelected" format="boolean"/>
+        <attr name="checked_title" format="string"/>
+        <attr name="checked_description" format="string"/>
+        <attr name="checked_titleSize" format="dimension" />
+        <attr name="checked_descriptionSize" format="dimension" />
+        <attr name="android:textColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="ToggleButton">
+        <attr name="toggle_textOn" format="string"/>
+        <attr name="toggle_textOff" format="string"/>
+        <attr name="toggle_colorOff" format="color"/>
+        <attr name="toggle_colorOn" format="color"/>
+        <attr name="toggle_colorBorder" format="color"/>
+        <attr name="toggle_colorDisabled" format="color"/>
+        <attr name="toggle_on" format="boolean"/>
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:enabled"/>
+        <attr name="android:textColor"/>
+    </declare-styleable>
+
+</resources>

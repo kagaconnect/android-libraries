@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textAllCaps="false"
+            android:paddingStart="8dp"
+            android:paddingEnd="0dp"
+            android:id="@+id/button"
+            android:background="@drawable/arrowed_button"
+            android:textSize="12sp"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#60000000"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="20dp"
+            android:textAlignment="textEnd"
+            android:background="@android:color/transparent"
+            android:paddingStart="0dp"
+            android:paddingEnd="12dp"
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="12dp"
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:scrollHorizontally="true"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:text="@string/mdi_chevron_right"/>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
