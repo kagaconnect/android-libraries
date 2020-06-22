@@ -13,7 +13,7 @@ def geVersionCode = { ->
 }
 
 def getArtificatId = { ->
-    return "buttons"
+    return "layouts"
 }
 
 publishing {
@@ -100,9 +100,6 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.github.kagaconnect:core:1.0.4'
-
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
