@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="popupTextAlignment" format="enum">
+        <enum name="start" value="0" />
+        <enum name="end" value="1" />
+        <enum name="center" value="2" />
+    </attr>
+
+    <declare-styleable name="Spinner">
+        <attr name="spin_arrowTint" format="color" />
+        <attr name="spin_hideArrow" format="boolean" />
+        <attr name="spin_arrowDrawable" format="reference|color" />
+        <attr name="spin_dropDownListPaddingBottom" format="dimension" />
+        <attr name="spin_backgroundSelector" format="integer" />
+        <attr name="spin_textTint" format="color" />
+        <attr name="popupTextAlignment" />
+        <attr name="spin_entries" format="reference" />
+    </declare-styleable>
+</resources>

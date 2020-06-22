@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="three_grid_unit">8dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+
+    <dimen name="labeled_default_width">72dp</dimen>
+    <dimen name="labeled_default_height">32dp</dimen>
+
+    <dimen name="opd_elevation">5dp</dimen>
+
+    <dimen name="button_corner_radius">24dp</dimen>
+    <dimen name="button_corner_radius_nc">4dp</dimen>
+    <dimen name="gender_button_corner_radius_nc">12dp</dimen>
+    <dimen name="simcard_corner_radius">8dp</dimen>
+</resources>

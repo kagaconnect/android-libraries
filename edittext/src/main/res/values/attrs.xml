@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EditText">
+        <attr name="editor_hint" format="string"/>
+        <attr name="editor_hintColor" format="color"/>
+        <attr name="editor_hintSize" format="dimension" />
+        <attr name="editor_descriptionHint" format="string"/>
+        <attr name="editor_descriptionHintColor" format="color" />
+        <attr name="editor_textSize" format="dimension" />
+        <attr name="android:textColor"/>
+        <attr name="android:enabled"/>
+    </declare-styleable>
+
+</resources>
