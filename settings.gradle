@@ -1,0 +1,4 @@
+include ':edittext'
+include ':spinner'
+include ':app'
+rootProject.name = "Libraries"
