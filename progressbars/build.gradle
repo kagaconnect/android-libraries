@@ -15,7 +15,7 @@ def geVersionCode = { ->
 }
 
 def getArtificatId = { ->
-    return "buttons"
+    return "progressbars"
 }
 
 publishing {

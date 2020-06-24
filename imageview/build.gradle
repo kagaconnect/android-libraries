@@ -13,7 +13,7 @@ def geVersionCode = { ->
 }
 
 def getArtificatId = { ->
-    return "edittext"
+    return "imageview"
 }
 
 publishing {
