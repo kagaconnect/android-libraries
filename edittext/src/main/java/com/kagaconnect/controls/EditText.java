@@ -69,8 +69,25 @@ public class EditText extends LinearLayout {
 
             description_text.setHint(ta.getString(R.styleable.EditText_editor_descriptionHint));
             description_text.setHintTextColor(ta.getColor(R.styleable.EditText_editor_descriptionHintColor, Color.parseColor("#20000000")));
+            description_text.setTextColor(ta.getColor(R.styleable.EditText_editor_description_textColor, Color.parseColor("#60000000")));
             ta.recycle();
         }
+    }
+
+    public ColorStateList getTextColors(){
+        return title_text.getTextColors();
+    }
+
+    public final void setTextColor(int color) {
+        title_text.setTextColor(color);
+    }
+
+    public ColorStateList getDescriptionTextColors(){
+        return description_text.getTextColors();
+    }
+
+    public final void setDescriptionTextColor(int color) {
+        description_text.setTextColor(color);
     }
 
     public CharSequence getHint(){

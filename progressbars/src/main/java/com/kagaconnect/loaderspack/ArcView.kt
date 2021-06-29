@@ -21,7 +21,7 @@ class ArcView : View {
 
     var sweepAngle: Float = 180.0f
 
-    var arcColor: Int = resources.getColor(android.R.color.holo_red_dark)
+    var arcColor: Int = resources.getColor(android.R.color.holo_red_dark, context.theme)
     var drawOnlyStroke: Boolean = true
 
     var roundedEdges: Boolean = true
@@ -70,7 +70,7 @@ class ArcView : View {
         this.startAngle = typedArray.getFloat(R.styleable.ArcView_startAngle, 0.0f)
         this.sweepAngle = typedArray.getFloat(R.styleable.ArcView_sweepAngle, 180.0f)
 
-        this.arcColor = typedArray.getColor(R.styleable.ArcView_arcColor, resources.getColor(android.R.color.holo_red_dark))
+        this.arcColor = typedArray.getColor(R.styleable.ArcView_arcColor, resources.getColor(android.R.color.holo_red_dark, context.theme))
 
         this.drawOnlyStroke = typedArray.getBoolean(R.styleable.ArcView_drawOnlyStroke, true)
 

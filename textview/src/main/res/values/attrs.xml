@@ -6,6 +6,7 @@
         <attr name="textview_description" format="string"/>
         <attr name="textview_hintSize" format="dimension" />
         <attr name="textview_textSize" format="dimension" />
+        <attr name="textview_description_textColor" format="color" />
         <attr name="android:textColor"/>
     </declare-styleable>
 

@@ -7,6 +7,7 @@
         <attr name="editor_hintSize" format="dimension" />
         <attr name="editor_descriptionHint" format="string"/>
         <attr name="editor_descriptionHintColor" format="color" />
+        <attr name="editor_description_textColor" format="color" />
         <attr name="editor_textSize" format="dimension" />
         <attr name="android:textColor"/>
         <attr name="android:enabled"/>

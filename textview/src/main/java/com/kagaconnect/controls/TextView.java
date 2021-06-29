@@ -1,6 +1,7 @@
 package com.kagaconnect.controls;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.os.Build;
@@ -58,6 +59,7 @@ public class TextView extends LinearLayout {
 
             TypedArray ta = getContext().obtainStyledAttributes(set, R.styleable.TextView);
             title_text.setTextColor(ta.getColor(R.styleable.TextView_android_textColor, Color.parseColor("#60000000")));
+            description_text.setTextColor(ta.getColor(R.styleable.TextView_textview_description_textColor, Color.parseColor("#60000000")));
 
             title_text.setText(ta.getString(R.styleable.TextView_textview_hint));
             description_text.setText(ta.getString(R.styleable.TextView_textview_description));
@@ -67,6 +69,22 @@ public class TextView extends LinearLayout {
 
             ta.recycle();
         }
+    }
+
+    public ColorStateList getTextColors(){
+        return title_text.getTextColors();
+    }
+
+    public final void setTextColor(int color) {
+        title_text.setTextColor(color);
+    }
+
+    public ColorStateList getDescriptionTextColors(){
+        return description_text.getTextColors();
+    }
+
+    public final void setDescriptionTextColor(int color) {
+        description_text.setTextColor(color);
     }
 
     public CharSequence getText(){

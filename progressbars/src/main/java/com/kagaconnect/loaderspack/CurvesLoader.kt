@@ -20,7 +20,7 @@ class CurvesLoader : LinearLayout, LoaderContract {
     var distanceBetweenCurves: Int = 10
     var curveSweepAngle: Float = 160.0f
 
-    var curveColor: Int = resources.getColor(android.R.color.holo_red_light)
+    var curveColor: Int = resources.getColor(android.R.color.holo_red_light, context.theme)
 
     var animDuration: Int = 1500
 
@@ -70,7 +70,7 @@ class CurvesLoader : LinearLayout, LoaderContract {
         this.curveSweepAngle = typedArray.getFloat(R.styleable.CurvesLoader_curves_curveSweepAngle, 160.0f)
 
         this.curveColor = typedArray.getColor(R.styleable.CurvesLoader_curves_curveColor,
-                resources.getColor(android.R.color.holo_red_light))
+                resources.getColor(android.R.color.holo_red_light, context.theme))
 
         this.animDuration = typedArray.getInt(R.styleable.CurvesLoader_curves_animDuration, 1500)
 
